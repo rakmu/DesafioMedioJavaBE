@@ -1,5 +1,13 @@
+server:
+  servlet:
+    context-path: /desafiomediojavabe/api
+
 spring:
   application.name: DesafioMedioJavaBE
   data:
     mongodb:
       uri: mongodb+srv://ramon:4251528@desafiomediojavabe.3s538n8.mongodb.net/DesafioMedioJavaBE
+
+springdoc:
+  swagger-ui:
+    path: /public/swagger
